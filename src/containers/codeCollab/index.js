@@ -23,7 +23,7 @@ import NavBar from "../../component/navbar";
 import {useDispatch, useSelector} from "react-redux";
 import { Button, Typography } from "@material-ui/core";
 
-
+import { Scrollbars } from 'react-custom-scrollbars-2';
 
 const CodeCollab = () => {
     const users = useSelector((state) => state.usrs);
@@ -90,7 +90,11 @@ const CodeCollab = () => {
     return(
         <>
         <NavBar />
+        
         <p>{counter}</p>
+        
+        
+      
         <div style={styles.buttonStyle}>
             <Button variant="contained" color="primary" onClick={jsClick}>JavaScript</Button> &nbsp;&nbsp;&nbsp;&nbsp;
             <Button variant="contained" color="secondary"  onClick={pyClick}>Python</Button> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -126,7 +130,7 @@ const CodeCollab = () => {
             />
         </div>
        
-
+        
         </>
     );
 };

@@ -13,6 +13,7 @@
     "jquery": "^3.6.0",
     "react": "^17.0.2",
     "react-ace": "^9.4.0",
+    "react-custom-scrollbars-2": "^4.4.0",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.3",
     "react-router-dom": "^5.2.0",
@@ -47,6 +48,7 @@
   },
   "devDependencies": {
     "@iconify-icons/logos": "^1.1.9",
+    "@iconify/icons-fa-brands": "^1.1.0",
     "@iconify/react": "^1.1.4"
   }
 }
